@@ -1,0 +1,141 @@
+#sec1 {
+    font-family:Impact,sans-serif;
+    font-size: 40px;
+    float:left;
+    font: bold;
+    background-image:url("images (5).jpeg");
+    color: gold;
+
+ 
+}
+
+#section1,th {
+
+    width:350px;
+    padding:10px; 
+   color:black;
+   border-collapse:collapse;
+   
+}
+#section2 {
+	
+    
+    margin:20px;
+    padding:20px;
+   
+}
+
+
+header,#h1 {
+    text-align:right;
+    background-color:rgb(194, 221, 221);
+    font-size: 60px;
+    color: red;
+}
+table,th,td {
+	font-size:20px;
+	border-spacing:20px;
+	border-collapse: collapse;
+    margin:10px;
+    text-align: center;
+    font: 1em sans-serif;
+    font-style: bold;
+     
+}
+
+#nav {
+    text-align:center;
+
+
+}
+	#tds:hover, .dropdown:hover.dropbtn {
+	background-color: greenyellow;
+
+}
+article {
+	text-align: right;
+    height:300px;
+    float:right;
+    box-shadow: 5px 5px 5px greenyellow; 
+
+}
+h3,div {
+	
+	background-image:url("piano.jpg");
+   float:left;
+   padding:1px;
+   font-style: bold;
+   font-size: 20px;
+   border-radius: 40px;
+  
+}
+aside {
+    width:700px;
+    float:left;
+    padding:10px; 
+}
+#container {
+	color: white;
+	background-color: gray; 
+	text-align: center;
+
+
+}
+
+.dropbtn {
+  color: red;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 5px 8px 16px 5px green;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {background-color: yellow;}
+
+.dropdown:hover .dropdown-content {display:inline-block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+
+		ul,li, a {
+			
+			margin:6px;
+			padding:15px;
+			color:red;
+			display: inline-block;
+			background-color:black;
+			border-radius: 40px;
+			box-shadow: 5px 5px 5px #ffa500; 
+
+		}
+		li a:hover, .dropdown:hover.dropbtn {
+	background-color: white;
+}
+p {
+	text-align:justify;
+	font-size:20px;
+}
+b {
+	
+	
+	border-radius: 40px;
+	font-size:20px;
+}
